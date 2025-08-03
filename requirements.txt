@@ -1,6 +1,8 @@
 streamlit==1.30.0
 pandas
 folium
+streamlit_folium
 pydub
 speechrecognition
 numpy
+
