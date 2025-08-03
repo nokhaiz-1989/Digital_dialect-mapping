@@ -5,4 +5,7 @@ streamlit_folium
 pydub
 speechrecognition
 numpy
+plotly
+wordcloud
+matplotlib
 
