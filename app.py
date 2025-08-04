@@ -16,8 +16,8 @@ import base64
 # ✅ Set Streamlit page config FIRST
 st.set_page_config
 page_title="Digital Dialectal Mapper",
-    layout="wide",
-    initial_sidebar_state="expanded"
+layout="wide",
+initial_sidebar_state="expanded"
 
 # Optional audio dependencies - graceful fallback if not available
 AUDIO_AVAILABLE = True
@@ -781,5 +781,6 @@ elif main_tab == "📚 Corpus Management":
     
     # Corpus management tabs
     corpus_tab1, corpus_tab2, corpus_tab3, corpus_tab4 = st.tabs
+
 
 
